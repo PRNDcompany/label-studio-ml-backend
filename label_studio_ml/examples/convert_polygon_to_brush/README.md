@@ -20,7 +20,11 @@ directory.
 
 ```
 git clone https://github.com/PRNDcompany/label-studio-ml-backend
-cd label-studio-ml-backend/label_studio_ml/examples/convert_polygon_to_brush
+
+cd label-studio-ml-backend
+pip3 install -e .
+
+cd label_studio_ml/examples/convert_polygon_to_brush
 ```
 
 ### Setting up the backend manually
