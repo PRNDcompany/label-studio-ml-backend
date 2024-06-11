@@ -1,12 +1,13 @@
 import logging
 import re
 import functools
+import label_studio_sdk.label_interface
 from uuid import uuid4
 
 from typing import List, Dict, Optional
 from label_studio_ml.model import LabelStudioMLBase
 from label_studio_ml.response import ModelResponse
-from label_studio_sdk.objects import PredictionValue
+from label_studio_sdk._legacy.objects import PredictionValue
 
 logger = logging.getLogger(__name__)
 

@@ -4,11 +4,12 @@ from types import SimpleNamespace
 from typing import List, Dict, Optional
 
 import label_studio_sdk
+import label_studio_sdk.label_interface
 import torch
 from gliner import GLiNER
 from label_studio_ml.model import LabelStudioMLBase
 from label_studio_ml.response import ModelResponse
-from label_studio_sdk.objects import PredictionValue
+from label_studio_sdk._legacy.objects import PredictionValue
 from tqdm import tqdm
 from transformers import get_cosine_schedule_with_warmup
 
