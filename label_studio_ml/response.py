@@ -2,6 +2,7 @@
 from typing import Type, Dict, Optional, List, Tuple, Any, Union
 from pydantic import BaseModel, confloat
 
+import label_studio_sdk.label_interface
 from label_studio_sdk._legacy.objects import PredictionValue
 
 

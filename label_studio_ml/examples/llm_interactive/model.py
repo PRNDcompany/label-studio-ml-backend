@@ -5,6 +5,7 @@ import re
 import os
 import requests
 import pytesseract
+import label_studio_sdk.label_interface
 
 from PIL import Image, ImageOps
 from io import BytesIO

@@ -1,6 +1,7 @@
 import os
 import pathlib
 import logging
+import label_studio_sdk.label_interface
 
 from label_studio_converter import brush
 from typing import List, Dict, Optional

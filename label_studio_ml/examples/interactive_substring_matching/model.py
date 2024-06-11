@@ -1,6 +1,7 @@
 import logging
 import re
 import functools
+import label_studio_sdk.label_interface
 from uuid import uuid4
 
 from typing import List, Dict, Optional

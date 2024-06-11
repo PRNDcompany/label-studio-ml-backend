@@ -3,6 +3,7 @@ import torch
 import logging
 import pathlib
 import label_studio_sdk
+import label_studio_sdk.label_interface
 
 from typing import List, Dict, Optional
 from label_studio_ml.model import LabelStudioMLBase

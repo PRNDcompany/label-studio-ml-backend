@@ -1,5 +1,6 @@
 import os
 import logging
+import label_studio_sdk.label_interface
 
 from typing import List, Dict, Optional
 from label_studio_ml.model import LabelStudioMLBase, ModelResponse
